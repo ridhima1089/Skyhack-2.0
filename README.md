@@ -64,3 +64,43 @@ to configure the date format for your session.
 
 ### 7. Analyze Top Recurring Call Reasons with Transcripts
 - Execute the last query block to identify top recurring reasons along with their transcripts for further analysis.
+# Running Call Transcript Analysis in Jupyter Notebook
+
+Follow these steps to run the Call Transcript Analysis project in Jupyter Notebook:
+
+## Prerequisites
+
+1. **Install Jupyter Notebook**:
+   If you don't have Jupyter installed, you can install it using pip:
+
+   ```bash
+   pip install jupyter
+2. Install Required Libraries: Ensure you have the necessary libraries installed. You can install them using pip:
+   pip install pandas matplotlib scikit-learn nltk
+
+##Dataset Preparation
+Download the Datasets:
+
+Download the call transcripts dataset and save it as calls.csv.
+Download the call reasons dataset and save it as reason.csv.
+Place the Datasets:
+
+Ensure that both files are placed in the correct directory:
+C:/UA/calls.csv
+C:/UA/reason.csv
+Launch Jupyter Notebook
+Open a terminal or command prompt.
+
+Navigate to the directory where you want to create your notebook.
+
+Start Jupyter Notebook
+
+##Create a New Notebook
+In the Jupyter Notebook interface, click on New and select Python 3 to create a new notebook.
+Rename the notebook to something meaningful, like Call_Transcript_Analysis.ipynb.
+##Copy the Code into the Notebook
+Copy the code provided in your project (excluding the Python code section) and paste it into the first cell of your notebook.
+Execute the cell by pressing Shift + Enter.
+##Running the Code
+Ensure you run the necessary imports and code blocks in separate cells.
+Execute each cell sequentially to ensure proper execution.
